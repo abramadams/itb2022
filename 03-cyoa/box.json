@@ -1,0 +1,11 @@
+{
+    "name": "Choose Your Own Adventure Game via CommandBox",
+    "version": "1.0.0",
+    "author": "Abram Adams",
+    "type": "commandbox-modules",
+    "homepage": "",
+    "slug": "03-cyoa-commands",
+    "shortDescription": "Text base choose your own adventure game.",
+    "keywords": "cyoa,game,commands",
+    "private": true
+}

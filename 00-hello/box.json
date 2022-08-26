@@ -1,0 +1,11 @@
+{
+    "name": "Say Hello CommandBox",
+    "version": "1.0.0",
+    "author": "Abram Adams",
+    "type": "commandbox-modules",
+    "homepage": "",
+    "slug": "hello-commands",
+    "shortDescription": "",
+    "keywords": "commands",
+    "private": true
+}
