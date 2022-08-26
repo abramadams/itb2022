@@ -5,11 +5,9 @@ This repo is to accompany the presentation slides at https://slides.com/abramada
 Install [CommandBox](https://commandbox.ortusbooks.com/setup/installation)
 
 ## Key Takeaways
-* Why CLI - GUI's are so easy 
-* CommandBox Modules
-* Development
+* Command Development
+* CommandBox Modules & Dependency Injection
 * CommandBox Ecosystem
-* Deploying CommandBox Modules
 
 In this repo/presentation we'll study a Choose Your Own Adventure game built as a CommandBox module to showcase how to develop command line utilities using CommandBox.  We'll start out with a simple hello world type demo and tack on cool features as we progress from demo 00 to 07.
 
