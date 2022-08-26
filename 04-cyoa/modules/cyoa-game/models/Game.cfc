@@ -27,7 +27,7 @@ component extends="commandbox.system.BaseCommand"{
 
         // If this was the first scene, set the choice to "0" so future choices can build on that
         // This refers to the "story" key in the json.  Each scene has 2 choices, 1 and 2.  The user
-        // choses and that number is appended to the current "story" key to determine the next scene to load.
+        // chooses and that number is appended to the current "story" key to determine the next scene to load.
         if( choice == "initial story" ) choice = "0";
 
         if( choice != 0 ) shell.clearScreen();
@@ -116,10 +116,18 @@ component extends="commandbox.system.BaseCommand"{
         var formattedText = cleanString( text.replaceNoCase('<br>'," " & chr(999),'all') );
         var message = formattedText;
        
-        // ConsolePretty.printMessageBox( message = formattedText.listToArray(chr(999)), border = "👾", color="PaleTurquoise1", borderColor="blue", columns = 100, wordWrap =true, textAlign="left" );
-        formattedText.listToArray(chr(999)).each( (line)=>{
-            print.boldGreenLine( line ).toConsole();            
-        });
+        ConsolePretty.printMessageBox( 
+            message = formattedText.listToArray(chr(999)), 
+            border = "🦄", 
+            color = "PaleTurquoise1", 
+            borderColor = "blue", 
+            columns = 100, 
+            wordWrap = true, 
+            textAlign = "left" 
+        );
+        // formattedText.listToArray(chr(999)).each( (line)=>{
+        //     print.boldGreenLine( line ).toConsole();            
+        // });
         try{
             say( cleanString( text ) );
         }catch (any e) {}

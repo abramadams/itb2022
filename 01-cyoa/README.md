@@ -1,4 +1,7 @@
-# Initialize
+# Interactive Inputs Demo
+This demo highlights a few ways to solicit input from the user to adjust how your command behaves.
+
+## Initialize
 ```
 box package init name="Choose Your Own Adventure Game via CommandBox" version=1.0.0 slug="01-cyoa-commands"
 box package set type=commandbox-modules

@@ -43,7 +43,7 @@ component extends="commandbox.system.BaseCommand" {
 
         // If this was the first scene, set the choice to "0" so future choices can build on that
         // This refers to the "story" key in the json.  Each scene has 2 choices, 1 and 2.  The user
-        // choses and that number is appended to the current "story" key to determine the next scene to load.
+        // chooses and that number is appended to the current "story" key to determine the next scene to load.
         if( choice == "initial story" ) choice = "0";
 
         // Uses CommandBox's OS shell integration to clear the screen.

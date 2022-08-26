@@ -16,7 +16,7 @@ component extends="commandbox.system.BaseCommand" {
      * @play.hint Whether or not you want to play
      * @color.hint The color you want the text to print (at the end)
     */
-    function run( string name, play, color = "red" ) {
+    function run( required string name, play, color = "red" ) {
         var name = arguments.name?:ask("What is your name?");
 
         print.boldBlueLine("Well #name#, it's nice to meet you. I'm #getFileFromPath(getCurrentTemplatePath()).listFirst('.')#, your friendly game bot.").toConsole();
