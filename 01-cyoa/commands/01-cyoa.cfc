@@ -23,7 +23,6 @@ component extends="commandbox.system.BaseCommand" {
         }
 
         print.boldLine("GREAT!").toConsole();
-
         
         var color = multiselect( 'What is your favorite color? ' )
                     .setOptions( [
