@@ -39,8 +39,8 @@ CommandBox> say hello
 ## Demo Setup
 ### 1. Initialize Command Module
 ```
-CommandBox> package init name="Say Hello CommandBox" version=1.0.0 slug="hello-commands"
-CommandBox> package set type=commandbox-modules
+box package init name="Say Hello CommandBox" version=1.0.0 slug="hello-commands"
+box package set type=commandbox-modules
 
 ```
 ### 2. Make it a ColdBox Module

@@ -7,7 +7,7 @@
 * {code} 
 * 
 **/
-component extends="commandbox.system.BaseCommand" {
+component {
 
    /**
      * 01-cyoa

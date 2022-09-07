@@ -18,12 +18,12 @@ component extends="commandbox.system.BaseCommand" {
         print.boldBlueLine("Well #name#, it's nice to meet you. I'm #getFileFromPath(getCurrentTemplatePath()).listFirst('.')#, your friendly game bot.").toConsole();
         var play = confirm("Would you like to play a game?");
     
-        game(play);
+        gameLoop(play);
 
         return;
     }
 
-    function game( play ){
+    function gameLoop( play ){
         if( !play ){
             print.boldRedLink(":( ok, whatever...").toConsole();
             return;
