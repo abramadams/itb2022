@@ -1,5 +1,5 @@
 # Writing Command Line Utilities With CommandBox Modules
-This repo is to accompany the presentation slides at https://slides.com/abramadams/commandbox.  
+This repo is to accompany the presentation slides at https://docs.google.com/presentation/d/16sIyt3wuVMRQcRJ10g6mpqbOYI-cgY7Jighh-4XwNiQ/edit?usp=sharing.
 
 ## Prerequisites
 Install [CommandBox](https://commandbox.ortusbooks.com/setup/installation)
